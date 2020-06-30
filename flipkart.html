@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flipkart</title>
+
+	  <meta charset="UTF-8">
+  <meta name="description" content="Flipkart">
+  <meta name="keywords" content="Flipkart,Headfone,Blooth">
+  <meta name="author" content="Manojit Karmakar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!-- Header -->
+<body class=" bk_background">
+
+
+	<div class="bk_background" >
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="myHeader">
+		<h3 class="navbar-brand text-light">Flipkart</h3>
+		
+  		<div class="input-group md-form form-sm form-2 pl-0">
+		  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search" >
+			<div class="input-group-append">
+			    <span class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </span>
+	 		</div>
+ 		</div>
+
+    	<div class="collapse navbar-collapse">
+	    	<ul class="navbar-nav mr-auto">
+	      		<li class="nav-item active">
+	        		<a class="nav-link" href="#">Login</a>
+	      		</li>
+
+	      		<li class="nav-item">
+	       		 <a class="nav-link" href="#">More</a>
+	      		</li>
+
+	      		<li class="nav-item">
+	       		 <a class="nav-link" href="#">Cart</a>
+	      		</li>
+	    	</ul>
+	  	</div>
+
+	</nav>
+	</div>
+
+
+	<!-- Filter -->
+	<div class="container mt-2" >
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card" style="overflow-y: scroll; height: 1000px;">
+
+					<div class="card-body">
+						<h4 class="card-title">Filters</h4>
+						<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+						<form>
+							<label><b>STATUS</b></label><br>
+							<input type="radio" name="z"> All<br>
+							<input type="radio" name="z"> Upcoming<br>
+							<input type="radio" name="z"> Available<br>
+							<hr>
+
+							<label><b>PRICE RANGE (1K TO 10L)</b></label><br>
+							<input type="range" name="" min="10000" max="100000"><br>
+							<hr>
+
+							<label><b>RAM</b></label><br>
+							<input type="checkbox" name=""> 6 GB & Above<br>
+							<input type="checkbox" name=""> 4 GB<br>
+							<input type="checkbox" name=""> 3 GB<br>
+							<input type="checkbox" name=""> 2 GB<br>
+							<input type="checkbox" name=""> 1 GB<br>
+							<input type="checkbox" name=""> 512 GB - 1 GB<br>
+							<input type="checkbox" name=""> Less then 512 GB<br>
+							<hr>
+
+							<label><b>BRAND</b></label><br>
+							<div class="input-group md-form form-sm form-1 pl-0">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text purple lighten-3" id="basic-text1"><i class="fas fa-search text-black" aria-hidden="true"></i></span>
+							  </div>
+							  <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+							</div>
+							<br>
+							<input type="radio" name="x"> POCO<br>
+							<input type="radio" name="x"> Realme<br>
+							<input type="radio" name="x"> Infinix<br>
+							<input type="radio" name="x"> Motorola<br>
+							<input type="radio" name="x"> Samsung<br>
+							<input type="radio" name="x"> Mi<br>
+							<hr>
+
+							<label><b>CUSTOMER RATINGS</b></label><br>
+							<input type="radio" name="y"> 4 <i class="fa fa-star"></i> & above<br>
+							<input type="radio" name="y"> 3 <i class="fa fa-star"></i> & above<br>
+							<input type="radio" name="y"> 2 <i class="fa fa-star"></i> & above<br>
+							<input type="radio" name="y"> 1 <i class="fa fa-star"></i> & above<br>
+							<hr>
+
+							<label><b>INTERNAL STORAGE</b></label><br>
+							<select>
+								<optgroup>
+									<option> 256 GB & Above</option>
+									<option> 128 - 255.9 GB</option>
+									<option> 64 - 127.9 GB</option>
+									<option> 32 - 63.9 GB</option>
+									<option> 16 - 31.9 GB</option>
+									<option> 8 - 15.9 GB</option>
+									<option> 4 - 7.9 GB</option>
+									<option> 2 - 3.9 GB</option>
+								</optgroup>
+							</select>
+							<hr>
+
+							<label><b>OPERATING SYSTEM</b></label><br>
+							<select>
+								<option> Android</option>
+								<option> Blackberry</option>
+								<option> Brew</option>
+								<option> iOS</option>
+								<option> KaiOS</option>
+								<option> Linux</option>
+								<option> Sailfish</option>
+								<option> Symbian</option>		
+							</select>
+							<br>
+							<hr>
+
+							<label><b>BATTERY CAPACITY</b></label>
+							<div class="input-group md-form form-sm form-1 pl-0">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text purple lighten-3" id="basic-text1"><i class="fas fa-search text-black" aria-hidden="true"></i></span>
+							  </div>
+							  <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+							</div>
+							<br>
+							<input type="radio" name="x"> 1000 - 1999 mAh<br>
+							<input type="radio" name="x"> 2000 - 2999 mAh<br>
+							<input type="radio" name="x"> 3000 - 3999 mAh<br>
+							<input type="radio" name="x"> 4000 - 4999 mAh<br>
+							<input type="radio" name="x"> 5000 mAh & Above<br>
+							<input type="radio" name="x"> Less than 1000 mAh<br>
+							<hr>
+													<a href="#" class="btn bg_background btn-block text-light bg-primary" data-toggle="modal" data-target="#exampleModal1">Submit</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Product description -->
+			<div class="col-md-6" style="overflow-y: scroll; height: 1000px;">
+				<div class="card">
+					<div class="card-body">
+						<img src="https://rukminim1.flixcart.com/image/416/416/ka5oia80/headphone/a/h/7/rockerz-255f-rockerz-255-boat-original-imafrhehhzrkd6hv.jpeg?q=70" class="card-img-top">
+						<h4 class="card-title"><i>boAt Rockerz 255F Bluetooth Headset  (Active Black, Wireless in the ear)</i></h4>
+						<p class="card-text">4,01,014 Ratings & 39,526 Review</p>
+						
+						<h3><img src="https://cdn5.vectorstock.com/i/1000x1000/27/09/special-offer-price-tag-icon-for-sale-vector-1552709.jpg" width="40" height="40">
+      			<span>&#8377;</span><del>2,499</del> 1,499 \-</h3>
+      									<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						<br>
+
+						<p class="card-text">
+							<b>Available offers</b>
+							<ul>
+								<li>Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit CardT&C </li>
+								<li>Bank OfferExtra 5% off* with Axis Bank Buzz Credit CardT&C</li>
+								<li>No Cost EMI on Flipkart Axis Bank Credit CardT&C</li>
+							</ul>
+						<label><b>Delivery</b>					  <input class="form-control my-0 py-1" type="text" placeholder="Enter Delivery Pincode" aria-label="Search"></label>
+
+						<br>
+						<b>Highlights</b>
+						<ul>
+							<li>With Mic:Yes</li>
+							<li>Bluetooth version: 4.1</li>
+							<li>Wireless range: 10 m</li>
+							<li>Battery life: 6 hrs | Charging time: 2.5 hrs</li>
+							<li>Extra bass: Add extra thump to your music
+Using simple touch controls answer phone calls, change music tracks and control volume</li>
+							<li>Sweatproof: With IPX 5 rating this product is ideal for rigorous workouts</li>
+						</ul>
+
+						<b>Services</b>
+							<ul>
+								<li>1 year </li>
+								<li>7 Days Replacement Policy? </li>
+								<li>Cash on Delivery available? </li>
+								<li>Seller </li>
+								<li>CORSECA4.7 </li>
+								<li>7 Days Replacement Policy? </li>
+								<li>View more sellers starting from ₹1,399</li>
+							</ul>
+
+						<b>Description</b>
+							<ul>
+								<li>
+									Listen to interesting podcasts and great music on the go or when you’re working out with this sweat-resistant Bluetooth headset from Boat. This headset provides inline controls to help you skip tracks, adjust the volume, and even take calls.
+								</li>
+							</ul>
+
+						</p>
+
+
+						<a href="#" class="btn bg_background btn-block text-light bg-primary" data-toggle="modal" data-target="#exampleModal1">View More</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Twiter -->
+			<div class="col-md-3" style=" width:500px; height: 1000px; overflow-y: scroll; float: right;">
+				<a class="twitter-timeline" href="https://twitter.com/Flipkart?ref_src=twsrc%5Etfw">Tweets by Flipkart</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+
+		</div>
+	</div>
+
+
+<div style=" height: 100px; float: center; background: #414463; padding: 10px; text-align: center;	color: white">
+	<p><b>Top Stories:Brand Directory</b>
+
+MOST SEARCHED IN AUDIO & VIDEO:GRACO INDIAHI FI SYSTEMINTEX SPEAKERSSPEKERPEN DRIVE OFFERS3D GLASSESPANASONIC LCD TVHOME THEATREPHILIPS HOME APPLIANCESLOGITECH Z906JABRA BLUETOOTHPHILIPS HEADPHONESBUY EARPHONES ONLINESKULLCANDY EARPHONESONY HEADSET PRICEHEADPHONES WITH MIC ONLINEJBL PORTABLE SPEAKERSSMALL SPEAKERSPORTABLE DVD PLAYER2 1 SPEAKERSHP TAB PRICETAB PRICESONY HEADPHONES ONLINESAMSUNG BLUETOOTH PRICE</p>
+</div>
+
+</body>
+</html>
